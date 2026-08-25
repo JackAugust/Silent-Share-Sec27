@@ -1,0 +1,56 @@
+experiment,policy_size,attr_size,d,enc_ms_mean,enc_ms_std,ct_bytes_mean,ct_bytes_std,dec_ms_mean,dec_ms_std,dk_bytes_mean,dk_bytes_std,overlap,expected_attempts,scheme
+encryption_scaling,10,30,5,109.41107439999999,0.16861366890261026,3878.0,0.0,,,,,,,Fuzzy IB-ME
+encryption_scaling,25,30,5,215.9696942,1.2625899798658708,8648.0,0.0,,,,,,,Fuzzy IB-ME
+encryption_scaling,50,30,5,399.1892296,0.5569079387657326,16598.0,0.0,,,,,,,Fuzzy IB-ME
+encryption_scaling,100,30,5,765.5798924000002,1.8381983854914112,32498.0,0.0,,,,,,,Fuzzy IB-ME
+encryption_scaling,200,30,5,1491.5359475999999,5.216420311007427,64298.0,0.0,,,,,,,Fuzzy IB-ME
+encryption_scaling,400,30,5,2950.399661,8.484937081778005,127898.0,0.0,,,,,,,Fuzzy IB-ME
+decryption_scaling,100,5,5,,,,,1255.6488215999998,2.558230183358104,4590.0,0.0,,,Fuzzy IB-ME
+decryption_scaling,100,10,5,,,,,1249.6170928,4.875538885741784,9090.0,0.0,,,Fuzzy IB-ME
+decryption_scaling,100,15,5,,,,,1248.4950274,6.738812485543715,13590.0,0.0,,,Fuzzy IB-ME
+decryption_scaling,100,20,5,,,,,1247.2374354,9.424728285273511,18090.0,0.0,,,Fuzzy IB-ME
+decryption_scaling,100,25,5,,,,,1251.0659432,6.612713166196567,22590.0,0.0,,,Fuzzy IB-ME
+decryption_scaling,100,30,5,,,,,1252.9967054,3.7454511091928535,27090.0,0.0,,,Fuzzy IB-ME
+threshold_scaling,100,30,2,,,,,498.9481072,4.870270288347939,,,,,Fuzzy IB-ME
+threshold_scaling,100,30,4,,,,,1002.5929636,2.561811656347655,,,,,Fuzzy IB-ME
+threshold_scaling,100,30,6,,,,,1503.9317396,6.208951577004383,,,,,Fuzzy IB-ME
+threshold_scaling,100,30,8,,,,,2002.1559267999999,9.035617815533099,,,,,Fuzzy IB-ME
+search_complexity,100,30,5,,,,,,,,,5.0,142506.0,Fuzzy IB-ME
+search_complexity,100,30,5,,,,,,,,,10.0,565.5,Fuzzy IB-ME
+search_complexity,100,30,5,,,,,,,,,15.0,47.45454545454545,Fuzzy IB-ME
+search_complexity,100,30,5,,,,,,,,,20.0,9.19156346749226,Fuzzy IB-ME
+search_complexity,100,30,5,,,,,,,,,25.0,2.682213438735178,Fuzzy IB-ME
+search_complexity,100,30,5,,,,,,,,,30.0,1.0,Fuzzy IB-ME
+encryption_scaling,10,30,5,35.8572514,0.8999578068300197,2404.0,0.0,,,,,,,Silent-Share
+encryption_scaling,25,30,5,84.3444078,1.1957313761258013,5824.0,0.0,,,,,,,Silent-Share
+encryption_scaling,50,30,5,165.2002806,3.3482136209116433,11404.0,0.0,,,,,,,Silent-Share
+encryption_scaling,100,30,5,352.45964960000003,46.63786389753444,22564.0,0.0,,,,,,,Silent-Share
+encryption_scaling,200,30,5,644.5987309999998,48.68312671799142,45064.0,0.0,,,,,,,Silent-Share
+encryption_scaling,400,30,5,1298.3031308,142.21479979034115,90064.0,0.0,,,,,,,Silent-Share
+encryption_scaling,800,30,5,2458.3622326,5.009278920083023,180064.0,0.0,,,,,,,Silent-Share
+decryption_scaling,100,5,5,,,,,205.00865100000001,4.623056544792791,460.0,0.0,,,Silent-Share
+decryption_scaling,100,10,5,,,,,393.7442808,4.107140168272459,920.0,0.0,,,Silent-Share
+decryption_scaling,100,15,5,,,,,586.216715,4.306259347233099,1380.0,0.0,,,Silent-Share
+decryption_scaling,100,20,5,,,,,784.8686092,3.4545805968069208,1840.0,0.0,,,Silent-Share
+decryption_scaling,100,25,5,,,,,988.465671,0.7977350036011283,2300.0,0.0,,,Silent-Share
+decryption_scaling,100,30,5,,,,,1192.6004196,3.867857114528992,2760.0,0.0,,,Silent-Share
+threshold_scaling,100,30,2,,,,,1180.7116436,4.982580807643799,,,,,Silent-Share
+threshold_scaling,100,30,4,,,,,1188.2386424000001,4.965799648855866,,,,,Silent-Share
+threshold_scaling,100,30,6,,,,,1196.1042052,2.7554440260856747,,,,,Silent-Share
+threshold_scaling,100,30,8,,,,,1206.5547282,3.940053498308232,,,,,Silent-Share
+search_complexity,100,30,5,,,,,,,,,5.0,142506.0,Silent-Share
+search_complexity,100,30,5,,,,,,,,,10.0,565.5,Silent-Share
+search_complexity,100,30,5,,,,,,,,,15.0,47.45454545454545,Silent-Share
+search_complexity,100,30,5,,,,,,,,,20.0,9.19156346749226,Silent-Share
+search_complexity,100,30,5,,,,,,,,,25.0,2.682213438735178,Silent-Share
+search_complexity,100,30,5,,,,,,,,,30.0,1.0,Silent-Share
+threshold_scaling,100,30,3,,,,,737.8078538333334,23.087247763009053,,,,,Fuzzy IB-ME
+threshold_scaling,100,30,5,,,,,1247.0380136666665,29.744806120533838,,,,,Fuzzy IB-ME
+threshold_scaling,100,30,7,,,,,1705.401687666667,2.855400105099428,,,,,Fuzzy IB-ME
+threshold_scaling,100,30,9,,,,,2193.7945305,1.5792486173528268,,,,,Fuzzy IB-ME
+threshold_scaling,100,30,10,,,,,2475.855329,55.757253422619506,,,,,Fuzzy IB-ME
+threshold_scaling,100,30,3,,,,,1160.4985110000002,20.061536981704972,,,,,Silent-Share
+threshold_scaling,100,30,5,,,,,1182.3231449999998,21.986590156873092,,,,,Silent-Share
+threshold_scaling,100,30,7,,,,,1198.2859968333332,78.76969670420235,,,,,Silent-Share
+threshold_scaling,100,30,9,,,,,1214.471129,33.094840094542825,,,,,Silent-Share
+threshold_scaling,100,30,10,,,,,1200.1179805,12.02243538411724,,,,,Silent-Share
