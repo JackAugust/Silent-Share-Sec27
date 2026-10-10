@@ -1,6 +1,6 @@
-# Silent-Share: Decoupling Hidden Threshold Matching from Pairing Operations via Group-Valued Oblivious Key-Value Stores
+# Silent-Share: Privacy-Preserving Bilateral Threshold Matching for Web Access Control
 
-This repository contains the implementation and benchmarking framework for the **Silent‑Share** protocol described in the paper *"Silent‑Share: Decoupling Hidden Threshold Matching from Pairing Operations via Group‑Valued Oblivious Key‑Value Stores"*.
+This repository contains the implementation and benchmarking framework for the **Silent‑Share** protocol described in the paper *"Silent‑Share: Privacy-Preserving Bilateral Threshold Matching for Web Access Control"*.
 
 The code enables full reproduction of the experimental results, including:
 - Dense Vandermonde GOKVS baseline
@@ -14,7 +14,7 @@ All experiments are conducted on the BN254 asymmetric pairing curve.
 ## Repository Structure
 
 ```text
-Silent-Share-Sec27/
+Silent-Share/
 ├── src/
 │   ├── silent_share.py              # Core Silent-Share PB-KEM and bilateral composition
 │   ├── sparse_gokvs.py              # Sparse group-valued OKVS (peeling-based)
